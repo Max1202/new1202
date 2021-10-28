@@ -1,5 +1,6 @@
 #include <iostream>
 #include "windows.h"
+#include <math.h>
 
 	using namespace std;
 
@@ -8,7 +9,7 @@
 		SetConsoleCP(1251);
 		SetConsoleOutputCP(1251);
 
-		int x, y;
+		int x;
 		cout << "¬вед≥ть номер дн€ тижн€ x: ";
 		cin >> x;
 
