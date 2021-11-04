@@ -1,4 +1,5 @@
 #include <iostream>
+#include "windows.h"
 #include <iomanip>
 #include <math.h>
 using namespace std;
@@ -14,7 +15,6 @@ int main()
 	}
 	Z = tan(Z) +pow((y),5);
 	cout << "Z=" << setprecision(3) << Z << endl;
-	system("pause");
 	return 0;
 }
 
